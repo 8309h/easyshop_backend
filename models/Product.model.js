@@ -51,7 +51,6 @@ ProductSchema.index({
   category: "text"
 });
 
-
 productSchema.index({ title: "text", description: "text" });
 
 const ProductModel = mongoose.model("Product", productSchema);
